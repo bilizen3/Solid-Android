@@ -10,23 +10,31 @@
     <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/editTextNumber1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:hint="Input radius or length"
+            android:inputType="numberDecimal"/>
 
     <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/editTextNumber2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"/>
 
     <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnSum"
+            android:id="@+id/btnAreaCircle"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:text="Sum"/>
+            android:text="Area Circle"/>
 
     <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnDeduct"
+            android:id="@+id/btnAreaRectangle"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:text="Deduct"/>
+            android:text="Area Rectangle"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textViewResult"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
 
 </androidx.appcompat.widget.LinearLayoutCompat>

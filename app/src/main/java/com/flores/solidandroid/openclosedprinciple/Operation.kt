@@ -1,5 +1,6 @@
 package com.flores.solidandroid.openclosedprinciple
 
-interface Shape {
+interface Operation {
     fun getArea(): Double
+    fun getVolumen():Double
 }
