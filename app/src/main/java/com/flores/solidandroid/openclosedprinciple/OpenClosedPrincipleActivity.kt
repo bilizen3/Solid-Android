@@ -1,7 +1,8 @@
-package com.flores.solidandroid
+package com.flores.solidandroid.openclosedprinciple
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.flores.solidandroid.R
 
 class OpenClosedPrincipleActivity : AppCompatActivity() {
 
