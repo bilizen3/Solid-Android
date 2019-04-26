@@ -9,6 +9,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".simpleresponsibilityprinciple.SimpleResponsibilityPrincipleActivity">
+        </activity>
         <activity android:name=".openclosedprinciple.OpenClosedPrincipleActivity">
         </activity>
         <activity android:name=".MainActivity">
