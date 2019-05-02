@@ -8,15 +8,15 @@
         tools:context=".MainActivity">
 
     <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnOpenClosedPrinciple"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:text="Open-Closed Principle"/>
-
-    <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnSimpleResponsiblidityPrinciple"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:text="Simple responsibility principle"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnOpenClosedPrinciple"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Open-Closed Principle"/>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
