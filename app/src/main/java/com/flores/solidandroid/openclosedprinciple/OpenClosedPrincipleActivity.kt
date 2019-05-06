@@ -2,7 +2,7 @@ package com.flores.solidandroid.openclosedprinciple
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.flores.solidandroid.Factory.AreaFactoryMethod
+import com.flores.solidandroid.openclosedprinciple.Factory.AreaFactoryMethod
 import com.flores.solidandroid.R
 import kotlinx.android.synthetic.main.activity_open_closed_principle.*
 
