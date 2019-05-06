@@ -12,19 +12,31 @@ class SimpleResponsibilityPrincipleActivity : AppCompatActivity() {
         setContentView(R.layout.activity_simple_responsibility_principle)
 
         btnAdd.setOnClickListener {
-
+            tvResult.text = Operation.add(
+                VerificationNumber.typeNumber(etNumb1.toString())
+                , VerificationNumber.typeNumber(etNumb2.toString())
+            ).toString()
         }
 
         btnSubtract.setOnClickListener {
-
+            tvResult.text = Operation.subtract(
+                VerificationNumber.typeNumber(etNumb1.toString())
+                , VerificationNumber.typeNumber(etNumb2.toString())
+            ).toString()
         }
 
         btnMultiply.setOnClickListener {
-
+            tvResult.text = Operation.multiply(
+                VerificationNumber.typeNumber(etNumb1.toString())
+                , VerificationNumber.typeNumber(etNumb2.toString())
+            ).toString()
         }
 
         btnDivide.setOnClickListener {
-
+            tvResult.text = Operation.divide(
+                VerificationNumber.typeNumber(etNumb1.toString())
+                , VerificationNumber.typeNumber(etNumb2.toString())
+            ).toString()
         }
 
     }
