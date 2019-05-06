@@ -12,11 +12,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        btnOpenClosedPrinciple.setOnClickListener {
-            startActivity(Intent(this, OpenClosedPrincipleActivity::class.java))
-        }
+
         btnSimpleResponsiblidityPrinciple.setOnClickListener {
             startActivity(Intent(this, SimpleResponsibilityPrincipleActivity::class.java))
+        }
+        btnOpenClosedPrinciple.setOnClickListener {
+            startActivity(Intent(this, OpenClosedPrincipleActivity::class.java))
         }
     }
 }

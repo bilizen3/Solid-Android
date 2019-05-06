@@ -9,5 +9,6 @@ class SimpleResponsibilityPrincipleActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_simple_responsibility_principle)
+
     }
 }
